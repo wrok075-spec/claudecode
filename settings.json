@@ -1,0 +1,22 @@
+{
+  "enabledPlugins": {
+    "frontend-design@claude-code-plugins": true,
+    "shopify-plugin@shopify-ai-toolkit": true,
+    "shopify-admin-skills@shopify-admin-skills": true
+  },
+  "extraKnownMarketplaces": {
+    "shopify-ai-toolkit": {
+      "source": {
+        "source": "github",
+        "repo": "Shopify/Shopify-AI-Toolkit"
+      }
+    },
+    "shopify-admin-skills": {
+      "source": {
+        "source": "github",
+        "repo": "40RTY-ai/shopify-admin-skills"
+      }
+    }
+  },
+  "voiceEnabled": true
+}

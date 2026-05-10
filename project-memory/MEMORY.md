@@ -1,0 +1,2 @@
+- [Never wipe outputs](feedback_no_wipe_outputs.md) — backup or overwrite specific templates, never rm -rf outputs
+- [No confirmation questions](feedback_no_confirmation.md) — never ask yes/no, just execute immediately
