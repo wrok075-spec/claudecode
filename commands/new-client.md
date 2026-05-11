@@ -7,8 +7,7 @@ Client URL or brand name: $ARGUMENTS
 If not provided in $ARGUMENTS, ask for:
 - Client/brand name
 - Store URL (e.g. storename.myshopify.com)
-- Is this CROtactic or Validare?
-- Is this a new build (Type A) or CRO client (Type B)?
+- Is this a new build (Type A) or optimization client (Type B)?
 - Live theme name or ID (if known)
 
 Do NOT ask for fonts, colors, or design rules — we scrape those automatically in Step 3.
@@ -76,8 +75,7 @@ Create `CLAUDE.md` in the client folder root (`clients/{slug}/CLAUDE.md`) with:
 
 ## Store
 - Domain: {storename.myshopify.com}
-- Agency: {CROtactic / Validare}
-- Client type: {Type A (new build) / Type B (CRO)}
+- Client type: {Type A (new build) / Type B (optimization)}
 - Live theme: {theme name/ID}
 - Draft theme: TBD
 
@@ -120,7 +118,7 @@ Create `CLAUDE.md` in the client folder root (`clients/{slug}/CLAUDE.md`) with:
 8. /fs-test-research   → Complete testing roadmap
 ```
 
-## Step 6: Run Full CRO Research Workflow
+## Step 6: Run Full Research Workflow
 
 After folder setup and brand scrape, execute the full `/cro-research` workflow automatically. Don't stop at brand DNA — run everything:
 
@@ -182,7 +180,7 @@ Before starting, get these from the client (don't proceed without them):
 
 Output:
 ```
-{Brand Name} project set up. Full CRO research initiated.
+{Brand Name} project set up. Full research initiated.
 
 Folder: clients/{slug}/
 Brand files: brand-dna.md, brand-voice.md, icp-cards.md ← auto-generated
